@@ -43,7 +43,7 @@ This project demonstrates how to use Terraform to provision AWS infrastructure (
 ### Setup Steps
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/repo-name.git
+git clone https://github.com/Rbilli51614/aws-infra-terraform.git
 cd repo-name
 
 # Deploy infrastructure (if applicable)
@@ -74,8 +74,8 @@ _Workflows are located in `.github/workflows/`._
 
 ## Screenshots
 
-| Grafana Dashboard | ArgoCD Sync |
-|------------------|-------------|
+| Grafana Dashboard|                               | ArgoCD Sync |
+|--------------------------------------||-----------------------------------|
 | ![grafana](./dashboards/grafana.png) | ![argocd](./diagrams/diagram.png) |
 
 ---
@@ -87,7 +87,7 @@ _Workflows are located in `.github/workflows/`._
 ---
 
 ## TODO
-- Add support for staging vs prod environments
+- 
 
 ---
 

@@ -18,7 +18,7 @@ terraform {
     organization = "Michael_Royce"
 
     workspaces {
-      name = "learn-terraform-github-actions"
+      name = "aws-infra-terraform"
     }
   }
 }
