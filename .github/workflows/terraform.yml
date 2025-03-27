@@ -9,7 +9,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "Michael_Royce"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "aws-infra-terraform"
+  TF_WORKSPACE: "AWS-infra-terraform"
   CONFIG_DIRECTORY: "./"
 
 

@@ -18,7 +18,7 @@ terraform {
     organization = "Michael_Royce"
 
     workspaces {
-      name = "aws-infra-terraform"
+      name = "AWS-infra-terraform"
     }
   }
 }
