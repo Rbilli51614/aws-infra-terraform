@@ -14,7 +14,7 @@ env:
 
 jobs:
   terraform:
-    if: github.repository != 'rbilli51614/aws-infra-terraform'
+    if: github.repository != 'hashicorp-education/learn-terraform-github-actions'
     name: "Terraform Plan"
     runs-on: ubuntu-latest
     permissions:
