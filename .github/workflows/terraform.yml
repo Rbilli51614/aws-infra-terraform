@@ -46,7 +46,7 @@ jobs:
         uses: actions/github-script@v6
         id: plan-comment
         with:
-          github-token: ${{ secrets.GITHUBTOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
               // 1. Retrieve existing bot comments for the PR
               const { data: comments } = await github.rest.issues.listComments({
@@ -108,7 +108,7 @@ jobs:
         env:
           PLAN: ${{ steps.plan.outputs.stdout }}
         with:
-          github-token: ${{ secrets.GITHUBTOKEN  }}
+          github-token: ${{ secrets.GITHUB_TOKEN  }}
           script: |
             const output = `#### Terraform Format and Style 🖌\`${{ steps.fmt.outcome }}\`
             #### Terraform Initialization ⚙️\`${{ steps.init.outcome }}\`
